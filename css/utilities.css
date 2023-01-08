@@ -1,0 +1,97 @@
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+    overflow: hidden;
+ }
+
+/* Button */
+ .btn {
+    display: inline-block;
+    font-size: 16px;
+    padding: 16px 32px;
+    cursor: pointer;
+    border-radius: 10px;
+    width: auto;
+    height: 51px;
+ }
+
+ .btn-primary {
+    background-color: var(--primary-color);
+    color: #fff;
+    border: 0;
+ }
+
+ .btn-primary:hover {
+    background-color: #016f01;
+    color: #fff;
+    border: 0;
+ }
+
+ .btn-secondary {
+    background-color: #fff;
+    color: var(--primary-color);
+    border: 1px var(--primary-color) solid;
+ }
+
+ .btn-secondary:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+    border: 0;
+ }
+
+ /* Layouts */
+ .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+ }
+
+ .grid-hero {
+   grid-template-columns: 52% 48%;
+   gap: 124px;
+ }
+
+ .grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+ }
+
+ 
+ .grid-4 {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+ }
+
+ .grid-4-1 {
+    grid-template-columns: repeat(4, 1fr);
+ }
+
+ .grid-3-2 {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 21px;
+ }
+
+ .grid-about {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 82px;
+ }
+
+ .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+ }
+
+ .client-flex, 
+ .flex-choose, 
+ .flex-data,
+ .flex-dishes,
+ .flex-sub {
+   flex-direction: column;
+ }
+
+ .text-center {
+    text-align: center;
+ }
+
